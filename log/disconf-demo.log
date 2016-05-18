@@ -1,0 +1,809 @@
+2016-05-18 16:50:29,439 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-05-18 16:50:29,458 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: Jianghr_0_1abb4c01-2366-41b3-acee-b0e14bfa18c7
+2016-05-18 16:50:29,460 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 16:50:29,465 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_STORE_ACTION: /api/config
+2016-05-18 16:50:29,465 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_ZOO_ACTION: /api/zoo
+2016-05-18 16:50:29,465 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_MASTER_NUM_ACTION Action URL: /api/getmasterinfo
+2016-05-18 16:50:29,465 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER LOCAL_DOWNLOAD_DIR: ./disconf/download
+2016-05-18 16:50:29,469 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [192.168.3.203:8081]
+2016-05-18 16:50:29,469 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-05-18 16:50:29,469 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_demo
+2016-05-18 16:50:29,469 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-05-18 16:50:29,469 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-05-18 16:50:29,470 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-05-18 16:50:29,470 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2016-05-18 16:50:29,470 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER ignore: []
+2016-05-18 16:50:29,470 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_times: 1
+2016-05-18 16:50:29,470 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_sleep_seconds: 1
+2016-05-18 16:50:29,470 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 16:50:29,470 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-05-18 16:50:29,471 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-05-18 16:50:29,476 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.example.disconf.demo]
+2016-05-18 16:50:29,504 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2016-05-18 16:50:29,623 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 16:50:29,671 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 08:33:03 GMT
+2016-05-18 16:50:29,671 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 16:50:29,672 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 16:50:29,672 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 16:50:29,672 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 16:50:29,672 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 16:50:29,705 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=192.168.3.203:2181]
+2016-05-18 16:50:29,705 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 16:50:29,709 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 08:33:04 GMT
+2016-05-18 16:50:29,709 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 16:50:29,710 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 16:50:29,710 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 16:50:29,710 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 16:50:29,710 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 16:50:29,710 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-05-18 16:50:32,736 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 192.168.3.203:2181 , connected.
+2016-05-18 16:50:32,736 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-05-18 16:50:38,769 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-05-18 16:50:38,773 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-05-18 16:50:38,780 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-05-18 16:50:38,851 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: autoconfig.properties	=============================
+2016-05-18 16:50:38,852 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-47f2c746c2ad4ec7bdc4b92b1e45973c
+2016-05-18 16:50:38,873 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-47f2c746c2ad4ec7bdc4b92b1e45973c
+2016-05-18 16:50:38,874 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-47f2c746c2ad4ec7bdc4b92b1e45973c to E:\work\MyEclipse10\disconf-demo\.\disconf\download2\autoconfig.properties
+2016-05-18 16:50:38,876 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-47f2c746c2ad4ec7bdc4b92b1e45973c to E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 16:50:38,878 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 16:50:38,878 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 16:50:38,879 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	2222222111
+2016-05-18 16:50:38,880 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 16:50:38,880 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	2222222111
+2016-05-18 16:50:38,880 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 16:50:38,911 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 16:50:38,911 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 16:50:38,911 [main] DEBUG com.baidu.disconf.client.DisconfMgr - disconf reloadable file: autoconfig.properties
+2016-05-18 16:50:38,913 [main] DEBUG c.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer - add property listener: {auto2=2222222111, auto1=2222222111, auto=2222222111}
+2016-05-18 16:50:38,967 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-05-18 16:50:38,969 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: autoconfig.properties	=============================
+2016-05-18 16:50:38,969 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	autoconfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=autoconfig.properties
+	copy2TargetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0
+	disConfCommonModel=DisConfCommonModel [app=disconf_demo, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+
+2016-05-18 16:50:38,969 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+
+2016-05-18 16:50:38,970 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-05-18 16:58:11,361 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-05-18 16:58:11,380 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: Jianghr_0_e8a4cde9-dafb-4aa0-a51f-c97a1b8c5b66
+2016-05-18 16:58:11,382 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 16:58:11,386 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_STORE_ACTION: /api/config
+2016-05-18 16:58:11,386 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_ZOO_ACTION: /api/zoo
+2016-05-18 16:58:11,387 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_MASTER_NUM_ACTION Action URL: /api/getmasterinfo
+2016-05-18 16:58:11,387 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER LOCAL_DOWNLOAD_DIR: ./disconf/download
+2016-05-18 16:58:11,390 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [192.168.3.203:8081]
+2016-05-18 16:58:11,390 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-05-18 16:58:11,390 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_demo
+2016-05-18 16:58:11,390 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-05-18 16:58:11,390 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-05-18 16:58:11,390 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-05-18 16:58:11,390 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2016-05-18 16:58:11,390 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER ignore: []
+2016-05-18 16:58:11,391 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_times: 1
+2016-05-18 16:58:11,391 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_sleep_seconds: 1
+2016-05-18 16:58:11,391 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 16:58:11,391 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-05-18 16:58:11,391 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-05-18 16:58:11,396 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.example.disconf.demo]
+2016-05-18 16:58:11,425 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2016-05-18 16:58:11,544 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 16:58:11,594 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 08:40:45 GMT
+2016-05-18 16:58:11,594 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 16:58:11,594 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 16:58:11,594 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 16:58:11,594 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 16:58:11,594 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 16:58:11,627 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=192.168.3.203:2181]
+2016-05-18 16:58:11,627 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 16:58:11,632 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 08:40:45 GMT
+2016-05-18 16:58:11,632 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 16:58:11,632 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 16:58:11,632 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 16:58:11,632 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 16:58:11,632 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 16:58:11,633 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-05-18 16:58:14,657 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 192.168.3.203:2181 , connected.
+2016-05-18 16:58:14,657 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-05-18 16:58:20,684 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-05-18 16:58:20,689 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-05-18 16:58:20,696 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-05-18 16:58:20,764 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: autoconfig.properties	=============================
+2016-05-18 16:58:20,765 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-19b73bbfdc404df3b0b2f9fc05817f88
+2016-05-18 16:58:20,786 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-19b73bbfdc404df3b0b2f9fc05817f88
+2016-05-18 16:58:20,789 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 16:58:20,790 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 16:58:20,791 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	2222222111
+2016-05-18 16:58:20,791 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 16:58:20,791 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	2222222111
+2016-05-18 16:58:20,792 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 16:58:20,827 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 16:58:20,827 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 16:58:20,827 [main] DEBUG com.baidu.disconf.client.DisconfMgr - disconf reloadable file: autoconfig.properties
+2016-05-18 16:58:20,829 [main] DEBUG c.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer - add property listener: {auto2=2222222111, auto1=2222222111, auto=2222222111}
+2016-05-18 16:58:20,883 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-05-18 16:58:20,884 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: autoconfig.properties	=============================
+2016-05-18 16:58:20,885 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	autoconfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=autoconfig.properties
+	copy2TargetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0
+	disConfCommonModel=DisConfCommonModel [app=disconf_demo, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+
+2016-05-18 16:58:20,885 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+
+2016-05-18 16:58:20,885 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-05-18 16:59:04,930 [main-EventThread] INFO  com.baidu.disconf.client.watch.inner.NodeWatcher - ============GOT UPDATE EVENT WatchedEvent state:SyncConnected type:NodeDataChanged path:/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件)======================
+2016-05-18 16:59:04,931 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-be9be0d568f4472eb16179facb04c616
+2016-05-18 16:59:04,940 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-be9be0d568f4472eb16179facb04c616
+2016-05-18 16:59:04,941 [main-EventThread] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-be9be0d568f4472eb16179facb04c616 to E:\work\MyEclipse10\disconf-demo\.\disconf\download2\autoconfig.properties
+2016-05-18 16:59:04,944 [main-EventThread] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-be9be0d568f4472eb16179facb04c616 to E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 16:59:04,947 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 16:59:04,947 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 16:59:04,948 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 16:59:04,948 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 16:59:04,948 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	qweqweqwe
+2016-05-18 16:59:04,950 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 16:59:04,967 [main-EventThread] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 16:59:04,967 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 17:05:26,348 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-05-18 17:05:26,371 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: Jianghr_0_59f3d05a-a980-4c37-b2bf-cbd787388aac
+2016-05-18 17:05:26,374 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 17:05:26,380 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_STORE_ACTION: /api/config
+2016-05-18 17:05:26,380 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_ZOO_ACTION: /api/zoo
+2016-05-18 17:05:26,380 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_MASTER_NUM_ACTION Action URL: /api/getmasterinfo
+2016-05-18 17:05:26,381 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER LOCAL_DOWNLOAD_DIR: ./disconf/download
+2016-05-18 17:05:26,384 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [192.168.3.203:8081]
+2016-05-18 17:05:26,384 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-05-18 17:05:26,384 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_demo
+2016-05-18 17:05:26,385 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-05-18 17:05:26,385 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-05-18 17:05:26,385 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-05-18 17:05:26,385 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2016-05-18 17:05:26,385 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER ignore: []
+2016-05-18 17:05:26,385 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_times: 1
+2016-05-18 17:05:26,385 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_sleep_seconds: 1
+2016-05-18 17:05:26,385 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 17:05:26,385 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-05-18 17:05:26,386 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-05-18 17:05:26,394 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.example.disconf.demo]
+2016-05-18 17:05:26,436 [main] WARN  org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2016-05-18 17:05:26,607 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 17:05:26,671 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 08:48:00 GMT
+2016-05-18 17:05:26,671 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 17:05:26,671 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 17:05:26,672 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 17:05:26,672 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 17:05:26,672 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 17:05:26,723 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=192.168.3.203:2181]
+2016-05-18 17:05:26,723 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 17:05:26,727 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 08:48:01 GMT
+2016-05-18 17:05:26,727 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 17:05:26,728 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 17:05:26,728 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 17:05:26,728 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 17:05:26,728 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 17:05:26,728 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-05-18 17:05:29,764 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 192.168.3.203:2181 , connected.
+2016-05-18 17:05:29,764 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-05-18 17:05:35,801 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-05-18 17:05:35,806 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-05-18 17:05:35,818 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-05-18 17:05:35,915 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: autoconfig.properties	=============================
+2016-05-18 17:05:35,916 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-cf32684e31db492290c3729b66a0d74a
+2016-05-18 17:05:35,952 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-cf32684e31db492290c3729b66a0d74a
+2016-05-18 17:05:35,956 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-cf32684e31db492290c3729b66a0d74a to E:\work\MyEclipse10\disconf-demo\.\disconf\download2\autoconfig.properties
+2016-05-18 17:05:35,959 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-cf32684e31db492290c3729b66a0d74a to E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 17:05:35,962 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 17:05:35,962 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 17:05:35,966 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 17:05:35,967 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 17:05:35,967 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	00000
+2016-05-18 17:05:35,968 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 17:05:36,005 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 17:05:36,005 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 17:05:36,006 [main] DEBUG com.baidu.disconf.client.DisconfMgr - disconf reloadable file: autoconfig.properties
+2016-05-18 17:05:36,008 [main] DEBUG c.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer - add property listener: {auto2=00000, auto1=sdfasdfa, auto=2222222111}
+2016-05-18 17:05:36,096 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-05-18 17:05:36,097 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: autoconfig.properties	=============================
+2016-05-18 17:05:36,098 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	autoconfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=autoconfig.properties
+	copy2TargetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0
+	disConfCommonModel=DisConfCommonModel [app=disconf_demo, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+
+2016-05-18 17:05:36,099 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+
+2016-05-18 17:05:36,099 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-05-18 17:05:41,195 [main-EventThread] INFO  com.baidu.disconf.client.watch.inner.NodeWatcher - ============GOT UPDATE EVENT WatchedEvent state:SyncConnected type:NodeDataChanged path:/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件)======================
+2016-05-18 17:05:41,195 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-9fcdaf6395bf43f085bbf9a3216168db
+2016-05-18 17:05:41,209 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-9fcdaf6395bf43f085bbf9a3216168db
+2016-05-18 17:05:41,210 [main-EventThread] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-9fcdaf6395bf43f085bbf9a3216168db to E:\work\MyEclipse10\disconf-demo\.\disconf\download2\autoconfig.properties
+2016-05-18 17:05:41,212 [main-EventThread] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-9fcdaf6395bf43f085bbf9a3216168db to E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 17:05:41,215 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 17:05:41,215 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 17:05:41,216 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 17:05:41,216 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 17:05:41,216 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	000001
+2016-05-18 17:05:41,216 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 17:05:41,243 [main-EventThread] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 17:05:41,243 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 17:15:12,771 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-05-18 17:15:12,792 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: Jianghr_0_f8dcee30-f0ab-4136-b131-20867dbe4ec9
+2016-05-18 17:15:12,794 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 17:15:12,797 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_STORE_ACTION: /api/config
+2016-05-18 17:15:12,797 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_ZOO_ACTION: /api/zoo
+2016-05-18 17:15:12,797 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_MASTER_NUM_ACTION Action URL: /api/getmasterinfo
+2016-05-18 17:15:12,797 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER LOCAL_DOWNLOAD_DIR: ./disconf/download
+2016-05-18 17:15:12,800 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [192.168.3.203:8081]
+2016-05-18 17:15:12,801 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-05-18 17:15:12,801 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_demo
+2016-05-18 17:15:12,801 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-05-18 17:15:12,801 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-05-18 17:15:12,801 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-05-18 17:15:12,801 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2016-05-18 17:15:12,801 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER ignore: []
+2016-05-18 17:15:12,801 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_times: 1
+2016-05-18 17:15:12,801 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_sleep_seconds: 1
+2016-05-18 17:15:12,802 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 17:15:12,802 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-05-18 17:15:12,802 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-05-18 17:15:12,808 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.test]
+2016-05-18 17:15:12,871 [main] INFO  org.reflections.Reflections - Reflections took 35 ms to scan 1 urls, producing 5 keys and 16 values 
+2016-05-18 17:15:12,990 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 17:15:13,045 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 08:57:47 GMT
+2016-05-18 17:15:13,045 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 17:15:13,045 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 17:15:13,045 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 17:15:13,045 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 17:15:13,045 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 17:15:13,076 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=192.168.3.203:2181]
+2016-05-18 17:15:13,077 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 17:15:13,082 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 08:57:47 GMT
+2016-05-18 17:15:13,082 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 17:15:13,082 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 17:15:13,082 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 17:15:13,082 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 17:15:13,082 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 17:15:13,083 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-05-18 17:15:16,107 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 192.168.3.203:2181 , connected.
+2016-05-18 17:15:16,107 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-05-18 17:15:22,144 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-05-18 17:15:22,151 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-05-18 17:15:22,156 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-05-18 17:15:22,219 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: autoconfig.properties	=============================
+2016-05-18 17:15:22,220 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-46a56726f8934f2486869eeba746db9a
+2016-05-18 17:15:22,251 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-46a56726f8934f2486869eeba746db9a
+2016-05-18 17:15:22,255 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 17:15:22,255 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 17:15:22,259 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 17:15:22,259 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 17:15:22,259 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	000001
+2016-05-18 17:15:22,260 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 17:15:22,298 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 17:15:22,298 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 17:15:22,298 [main] DEBUG com.baidu.disconf.client.DisconfMgr - disconf reloadable file: autoconfig.properties
+2016-05-18 17:15:22,300 [main] DEBUG c.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer - add property listener: {auto2=000001, auto1=sdfasdfa, auto=2222222111}
+2016-05-18 17:15:22,487 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-05-18 17:15:22,489 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: autoconfig.properties	=============================
+2016-05-18 17:15:22,489 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	autoconfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=autoconfig.properties
+	copy2TargetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0
+	disConfCommonModel=DisConfCommonModel [app=disconf_demo, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.test.callback.AutoServiceCallback@10e7c9e], disconfUpdatesActiveBackups=[]}]]
+
+2016-05-18 17:15:22,489 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+
+2016-05-18 17:15:22,490 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-05-18 17:15:30,259 [main-EventThread] INFO  com.baidu.disconf.client.watch.inner.NodeWatcher - ============GOT UPDATE EVENT WatchedEvent state:SyncConnected type:NodeDataChanged path:/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件)======================
+2016-05-18 17:15:30,260 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-cd6fa7e0eb6b490989b7f43d669b11ea
+2016-05-18 17:15:30,274 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-cd6fa7e0eb6b490989b7f43d669b11ea
+2016-05-18 17:15:30,280 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 17:15:30,281 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 17:15:30,281 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 17:15:30,282 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 17:15:30,282 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	000001
+2016-05-18 17:15:30,282 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 17:15:30,313 [main-EventThread] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 17:15:30,313 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 17:15:30,313 [main-EventThread] INFO  com.baidu.disconf.client.core.processor.impl.DisconfCoreProcessUtils - start to call class com.test.callback.AutoServiceCallback
+2016-05-18 17:15:30,314 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - reload callback autoconfig.properties or autoconfig2.properties
+2016-05-18 17:15:49,857 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-05-18 17:15:49,881 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: Jianghr_0_5edc2f68-cf60-4bc8-b36b-28214133bb4a
+2016-05-18 17:15:49,885 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 17:15:49,888 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_STORE_ACTION: /api/config
+2016-05-18 17:15:49,889 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_ZOO_ACTION: /api/zoo
+2016-05-18 17:15:49,889 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_MASTER_NUM_ACTION Action URL: /api/getmasterinfo
+2016-05-18 17:15:49,889 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER LOCAL_DOWNLOAD_DIR: ./disconf/download
+2016-05-18 17:15:49,892 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [192.168.3.203:8081]
+2016-05-18 17:15:49,893 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-05-18 17:15:49,893 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_demo
+2016-05-18 17:15:49,893 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-05-18 17:15:49,893 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-05-18 17:15:49,893 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-05-18 17:15:49,893 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2016-05-18 17:15:49,893 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER ignore: []
+2016-05-18 17:15:49,893 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_times: 1
+2016-05-18 17:15:49,893 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_sleep_seconds: 1
+2016-05-18 17:15:49,893 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 17:15:49,894 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-05-18 17:15:49,894 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-05-18 17:15:49,904 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.test]
+2016-05-18 17:15:49,996 [main] INFO  org.reflections.Reflections - Reflections took 52 ms to scan 1 urls, producing 5 keys and 16 values 
+2016-05-18 17:15:50,165 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 17:15:50,236 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 08:58:24 GMT
+2016-05-18 17:15:50,236 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 17:15:50,236 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 17:15:50,236 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 17:15:50,236 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 17:15:50,237 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 17:15:50,286 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=192.168.3.203:2181]
+2016-05-18 17:15:50,287 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 17:15:50,291 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 08:58:24 GMT
+2016-05-18 17:15:50,291 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 17:15:50,292 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 17:15:50,292 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 17:15:50,292 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 17:15:50,292 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 17:15:50,292 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-05-18 17:15:53,327 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 192.168.3.203:2181 , connected.
+2016-05-18 17:15:53,327 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-05-18 17:15:59,353 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-05-18 17:15:59,360 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-05-18 17:15:59,364 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-05-18 17:15:59,444 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: autoconfig.properties	=============================
+2016-05-18 17:15:59,445 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-d53104f4500846ec847c25cc1fcb2846
+2016-05-18 17:15:59,468 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-d53104f4500846ec847c25cc1fcb2846
+2016-05-18 17:15:59,474 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 17:15:59,474 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 17:15:59,481 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 17:15:59,481 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 17:15:59,481 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	000001
+2016-05-18 17:15:59,483 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 17:15:59,527 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 17:15:59,527 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 17:15:59,527 [main] DEBUG com.baidu.disconf.client.DisconfMgr - disconf reloadable file: autoconfig.properties
+2016-05-18 17:15:59,529 [main] DEBUG c.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer - add property listener: {auto2=000001, auto1=sdfasdfa, auto=2222222111}
+2016-05-18 17:15:59,889 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-05-18 17:15:59,892 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: autoconfig.properties	=============================
+2016-05-18 17:15:59,892 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	autoconfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=autoconfig.properties
+	copy2TargetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0
+	disConfCommonModel=DisConfCommonModel [app=disconf_demo, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.test.callback.AutoServiceCallback@a080bf], disconfUpdatesActiveBackups=[]}]]
+
+2016-05-18 17:15:59,892 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+
+2016-05-18 17:15:59,893 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-05-18 17:16:03,167 [main-EventThread] INFO  com.baidu.disconf.client.watch.inner.NodeWatcher - ============GOT UPDATE EVENT WatchedEvent state:SyncConnected type:NodeDataChanged path:/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件)======================
+2016-05-18 17:16:03,167 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-5f4be2617b9146319a9cfcf1462407d8
+2016-05-18 17:16:03,181 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-5f4be2617b9146319a9cfcf1462407d8
+2016-05-18 17:16:03,186 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 17:16:03,186 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 17:16:03,189 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 17:16:03,190 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 17:16:03,190 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	000001
+2016-05-18 17:16:03,190 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 17:16:03,225 [main-EventThread] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 17:16:03,226 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 17:16:03,226 [main-EventThread] INFO  com.baidu.disconf.client.core.processor.impl.DisconfCoreProcessUtils - start to call class com.test.callback.AutoServiceCallback
+2016-05-18 17:16:18,727 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - reload callback autoconfig.properties or autoconfig2.properties
+2016-05-18 18:33:03,595 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-05-18 18:33:03,617 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: Jianghr_0_d0d76f4a-80b4-4e1c-a57a-ecb979bcda8f
+2016-05-18 18:33:03,619 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 18:33:03,622 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_STORE_ACTION: /api/config
+2016-05-18 18:33:03,622 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_ZOO_ACTION: /api/zoo
+2016-05-18 18:33:03,622 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_MASTER_NUM_ACTION Action URL: /api/getmasterinfo
+2016-05-18 18:33:03,622 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER LOCAL_DOWNLOAD_DIR: ./disconf/download
+2016-05-18 18:33:03,626 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [192.168.3.203:8081]
+2016-05-18 18:33:03,626 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-05-18 18:33:03,626 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_demo
+2016-05-18 18:33:03,626 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-05-18 18:33:03,626 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-05-18 18:33:03,626 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-05-18 18:33:03,626 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2016-05-18 18:33:03,626 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER ignore: []
+2016-05-18 18:33:03,627 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_times: 1
+2016-05-18 18:33:03,627 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_sleep_seconds: 1
+2016-05-18 18:33:03,627 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 18:33:03,627 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-05-18 18:33:03,627 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-05-18 18:33:03,634 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.test]
+2016-05-18 18:33:03,699 [main] INFO  org.reflections.Reflections - Reflections took 37 ms to scan 1 urls, producing 10 keys and 34 values 
+2016-05-18 18:33:03,818 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 18:33:03,867 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 10:15:38 GMT
+2016-05-18 18:33:03,867 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 18:33:03,867 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 18:33:03,867 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 18:33:03,867 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 18:33:03,868 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 18:33:03,899 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=192.168.3.203:2181]
+2016-05-18 18:33:03,899 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 18:33:03,903 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 10:15:38 GMT
+2016-05-18 18:33:03,903 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 18:33:03,903 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 18:33:03,904 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 18:33:03,904 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 18:33:03,904 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 18:33:03,904 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-05-18 18:33:06,929 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 192.168.3.203:2181 , connected.
+2016-05-18 18:33:06,929 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-05-18 18:33:12,965 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-05-18 18:33:12,969 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-05-18 18:33:12,973 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-05-18 18:33:13,035 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: autoconfig.properties	=============================
+2016-05-18 18:33:13,036 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-b8efdaba76194393a56d9f2c7c477dcb
+2016-05-18 18:33:13,081 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-b8efdaba76194393a56d9f2c7c477dcb
+2016-05-18 18:33:13,085 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:33:13,085 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 18:33:13,086 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 18:33:13,086 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 18:33:13,086 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	000001
+2016-05-18 18:33:13,087 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 18:33:13,120 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 18:33:13,120 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 18:33:13,120 [main] DEBUG com.baidu.disconf.client.DisconfMgr - disconf reloadable file: autoconfig.properties
+2016-05-18 18:33:13,122 [main] DEBUG c.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer - add property listener: {auto2=000001, auto1=sdfasdfa, auto=2222222111}
+2016-05-18 18:33:13,311 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-05-18 18:33:13,314 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: autoconfig.properties	=============================
+2016-05-18 18:33:13,314 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	autoconfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=autoconfig.properties
+	copy2TargetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0
+	disConfCommonModel=DisConfCommonModel [app=disconf_demo, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.test.callback.AutoServiceCallback@746ad0], disconfUpdatesActiveBackups=[]}]]
+
+2016-05-18 18:33:13,314 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+
+2016-05-18 18:33:13,314 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-05-18 18:33:44,640 [main-EventThread] INFO  com.baidu.disconf.client.watch.inner.NodeWatcher - ============GOT UPDATE EVENT WatchedEvent state:SyncConnected type:NodeDataChanged path:/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件)======================
+2016-05-18 18:33:44,640 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-1d79784577724427a341866d0a289e2e
+2016-05-18 18:33:44,653 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-1d79784577724427a341866d0a289e2e
+2016-05-18 18:33:44,654 [main-EventThread] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-1d79784577724427a341866d0a289e2e to E:\work\MyEclipse10\disconf-demo\.\disconf\download2\autoconfig.properties
+2016-05-18 18:33:44,657 [main-EventThread] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-1d79784577724427a341866d0a289e2e to E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:33:44,661 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:33:44,661 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 18:33:44,661 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 18:33:44,661 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 18:33:44,661 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	0000013
+2016-05-18 18:33:44,662 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 18:33:44,685 [main-EventThread] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 18:33:44,685 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 18:33:44,686 [main-EventThread] INFO  com.baidu.disconf.client.core.processor.impl.DisconfCoreProcessUtils - start to call class com.test.callback.AutoServiceCallback
+2016-05-18 18:33:44,687 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - reload callback autoconfig.properties or autoconfig2.properties
+2016-05-18 18:33:44,687 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - value=[0000013, sdfasdfa, 2222222111]
+2016-05-18 18:34:10,230 [main-EventThread] INFO  com.baidu.disconf.client.watch.inner.NodeWatcher - ============GOT UPDATE EVENT WatchedEvent state:SyncConnected type:NodeDataChanged path:/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件)======================
+2016-05-18 18:34:10,230 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-cd010334febd45349df16a753b151fd4
+2016-05-18 18:34:10,242 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-cd010334febd45349df16a753b151fd4
+2016-05-18 18:34:10,247 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:34:10,247 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 18:34:10,248 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 18:34:10,248 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 18:34:10,248 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	0000013
+2016-05-18 18:34:10,249 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 18:34:10,272 [main-EventThread] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 18:34:10,272 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 18:34:10,272 [main-EventThread] INFO  com.baidu.disconf.client.core.processor.impl.DisconfCoreProcessUtils - start to call class com.test.callback.AutoServiceCallback
+2016-05-18 18:34:10,272 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - reload callback autoconfig.properties or autoconfig2.properties
+2016-05-18 18:34:10,272 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - value=[0000013, sdfasdfa, 2222222111]
+2016-05-18 18:34:23,665 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-05-18 18:34:23,687 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: Jianghr_0_118950c5-fb36-41d5-8606-2d20636ffccb
+2016-05-18 18:34:23,689 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 18:34:23,693 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_STORE_ACTION: /api/config
+2016-05-18 18:34:23,693 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_ZOO_ACTION: /api/zoo
+2016-05-18 18:34:23,693 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_MASTER_NUM_ACTION Action URL: /api/getmasterinfo
+2016-05-18 18:34:23,693 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER LOCAL_DOWNLOAD_DIR: ./disconf/download
+2016-05-18 18:34:23,696 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [192.168.3.203:8081]
+2016-05-18 18:34:23,696 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-05-18 18:34:23,696 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_demo
+2016-05-18 18:34:23,696 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-05-18 18:34:23,696 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-05-18 18:34:23,696 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-05-18 18:34:23,696 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2016-05-18 18:34:23,696 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER ignore: []
+2016-05-18 18:34:23,697 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_times: 1
+2016-05-18 18:34:23,697 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_sleep_seconds: 1
+2016-05-18 18:34:23,697 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 18:34:23,697 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-05-18 18:34:23,697 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-05-18 18:34:23,703 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.test]
+2016-05-18 18:34:23,769 [main] INFO  org.reflections.Reflections - Reflections took 37 ms to scan 1 urls, producing 10 keys and 34 values 
+2016-05-18 18:34:23,886 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 18:34:23,935 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 10:16:58 GMT
+2016-05-18 18:34:23,935 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 18:34:23,935 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 18:34:23,935 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 18:34:23,935 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 18:34:23,936 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 18:34:23,967 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=192.168.3.203:2181]
+2016-05-18 18:34:23,968 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 18:34:23,972 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 10:16:58 GMT
+2016-05-18 18:34:23,972 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 18:34:23,972 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 18:34:23,972 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 18:34:23,972 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 18:34:23,972 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 18:34:23,973 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-05-18 18:34:26,997 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 192.168.3.203:2181 , connected.
+2016-05-18 18:34:26,997 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-05-18 18:34:33,028 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-05-18 18:34:33,032 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-05-18 18:34:33,037 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-05-18 18:34:33,101 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: autoconfig.properties	=============================
+2016-05-18 18:34:33,102 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-34e2907ee46e4f61879d1abc4747223c
+2016-05-18 18:34:33,124 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-34e2907ee46e4f61879d1abc4747223c
+2016-05-18 18:34:33,127 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:34:33,128 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 18:34:33,129 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 18:34:33,129 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 18:34:33,129 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	0000013
+2016-05-18 18:34:33,130 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 18:34:33,161 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 18:34:33,161 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 18:34:33,161 [main] DEBUG com.baidu.disconf.client.DisconfMgr - disconf reloadable file: autoconfig.properties
+2016-05-18 18:34:33,163 [main] DEBUG c.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer - add property listener: {auto2=0000013, auto1=sdfasdfa, auto=2222222111}
+2016-05-18 18:34:33,351 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-05-18 18:34:33,353 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: autoconfig.properties	=============================
+2016-05-18 18:34:33,353 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	autoconfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=autoconfig.properties
+	copy2TargetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0
+	disConfCommonModel=DisConfCommonModel [app=disconf_demo, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.test.callback.AutoServiceCallback@191e4c], disconfUpdatesActiveBackups=[]}]]
+
+2016-05-18 18:34:33,353 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+
+2016-05-18 18:34:33,353 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-05-18 18:34:53,973 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-05-18 18:34:53,994 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: Jianghr_0_831fbfb5-71f6-49af-9196-994f9cab15b7
+2016-05-18 18:34:53,996 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 18:34:53,999 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_STORE_ACTION: /api/config
+2016-05-18 18:34:54,000 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_ZOO_ACTION: /api/zoo
+2016-05-18 18:34:54,000 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_MASTER_NUM_ACTION Action URL: /api/getmasterinfo
+2016-05-18 18:34:54,000 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER LOCAL_DOWNLOAD_DIR: ./disconf/download
+2016-05-18 18:34:54,003 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [192.168.3.203:8081]
+2016-05-18 18:34:54,003 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-05-18 18:34:54,003 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_demo
+2016-05-18 18:34:54,003 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-05-18 18:34:54,003 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-05-18 18:34:54,003 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-05-18 18:34:54,004 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2016-05-18 18:34:54,004 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER ignore: []
+2016-05-18 18:34:54,004 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_times: 1
+2016-05-18 18:34:54,004 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_sleep_seconds: 1
+2016-05-18 18:34:54,004 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 18:34:54,004 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-05-18 18:34:54,004 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-05-18 18:34:54,011 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.test]
+2016-05-18 18:34:54,076 [main] INFO  org.reflections.Reflections - Reflections took 37 ms to scan 1 urls, producing 10 keys and 34 values 
+2016-05-18 18:34:54,195 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 18:34:54,244 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 10:17:28 GMT
+2016-05-18 18:34:54,244 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 18:34:54,244 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 18:34:54,244 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 18:34:54,244 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 18:34:54,245 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 18:34:54,276 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=192.168.3.203:2181]
+2016-05-18 18:34:54,277 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 18:34:54,281 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 10:17:28 GMT
+2016-05-18 18:34:54,282 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 18:34:54,282 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 18:34:54,282 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 18:34:54,282 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 18:34:54,282 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 18:34:54,282 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-05-18 18:34:57,308 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 192.168.3.203:2181 , connected.
+2016-05-18 18:34:57,308 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-05-18 18:35:03,334 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-05-18 18:35:03,338 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-05-18 18:35:03,343 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-05-18 18:35:03,401 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: autoconfig.properties	=============================
+2016-05-18 18:35:03,402 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-6fc19bedd6a1413c9ae9ebc2030642ae
+2016-05-18 18:35:03,429 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-6fc19bedd6a1413c9ae9ebc2030642ae
+2016-05-18 18:35:03,433 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:35:03,433 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 18:35:03,434 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 18:35:03,434 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 18:35:03,434 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	0000013
+2016-05-18 18:35:03,435 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 18:35:03,465 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 18:35:03,465 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 18:35:03,466 [main] DEBUG com.baidu.disconf.client.DisconfMgr - disconf reloadable file: autoconfig.properties
+2016-05-18 18:35:03,467 [main] DEBUG c.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer - add property listener: {auto2=0000013, auto1=sdfasdfa, auto=2222222111}
+2016-05-18 18:35:03,656 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-05-18 18:35:03,658 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: autoconfig.properties	=============================
+2016-05-18 18:35:03,658 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	autoconfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=autoconfig.properties
+	copy2TargetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0
+	disConfCommonModel=DisConfCommonModel [app=disconf_demo, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.test.callback.AutoServiceCallback@120b2da], disconfUpdatesActiveBackups=[]}]]
+
+2016-05-18 18:35:03,658 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+
+2016-05-18 18:35:03,658 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-05-18 18:35:08,304 [main-EventThread] INFO  com.baidu.disconf.client.watch.inner.NodeWatcher - ============GOT UPDATE EVENT WatchedEvent state:SyncConnected type:NodeDataChanged path:/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件)======================
+2016-05-18 18:35:08,305 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-9e964b31a9d9447e8ebba706496bc9d2
+2016-05-18 18:35:08,320 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-9e964b31a9d9447e8ebba706496bc9d2
+2016-05-18 18:35:08,325 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:35:08,326 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 18:35:08,326 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 18:35:08,326 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 18:35:08,327 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	0000013
+2016-05-18 18:35:08,327 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 18:35:08,354 [main-EventThread] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 18:35:08,355 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 18:35:08,355 [main-EventThread] INFO  com.baidu.disconf.client.core.processor.impl.DisconfCoreProcessUtils - start to call class com.test.callback.AutoServiceCallback
+2016-05-18 18:35:08,357 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - reload callbackautoconfig.properties
+2016-05-18 18:35:08,357 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - reload autoconfig.properties :[auto2=0000013, auto1=sdfasdfa, auto=2222222111]
+2016-05-18 18:35:58,303 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-05-18 18:35:58,327 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: Jianghr_0_3f64fcc5-9f2b-4e2d-998f-40eb4d5763a4
+2016-05-18 18:35:58,330 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 18:35:58,335 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_STORE_ACTION: /api/config
+2016-05-18 18:35:58,335 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_ZOO_ACTION: /api/zoo
+2016-05-18 18:35:58,335 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER CONF_SERVER_MASTER_NUM_ACTION Action URL: /api/getmasterinfo
+2016-05-18 18:35:58,335 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER LOCAL_DOWNLOAD_DIR: ./disconf/download
+2016-05-18 18:35:58,338 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [192.168.3.203:8081]
+2016-05-18 18:35:58,339 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-05-18 18:35:58,339 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_demo
+2016-05-18 18:35:58,339 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-05-18 18:35:58,339 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-05-18 18:35:58,339 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: false
+2016-05-18 18:35:58,339 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download2
+2016-05-18 18:35:58,339 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER ignore: []
+2016-05-18 18:35:58,339 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_times: 1
+2016-05-18 18:35:58,339 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER conf_server_url_retry_sleep_seconds: 1
+2016-05-18 18:35:58,340 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: /E:/work/MyEclipse10/disconf-demo/target/classes/
+2016-05-18 18:35:58,340 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-05-18 18:35:58,340 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-05-18 18:35:58,351 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.test]
+2016-05-18 18:35:58,446 [main] INFO  org.reflections.Reflections - Reflections took 51 ms to scan 1 urls, producing 10 keys and 34 values 
+2016-05-18 18:35:58,615 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 18:35:58,684 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 10:18:32 GMT
+2016-05-18 18:35:58,685 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 18:35:58,686 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 18:35:58,686 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 18:35:58,686 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 18:35:58,688 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 18:35:58,736 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=192.168.3.203:2181]
+2016-05-18 18:35:58,737 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-05-18 18:35:58,741 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Date	Wed, 18 May 2016 10:18:32 GMT
+2016-05-18 18:35:58,741 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json;charset=UTF-8
+2016-05-18 18:35:58,742 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Transfer-Encoding	chunked
+2016-05-18 18:35:58,742 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Connection	keep-alive
+2016-05-18 18:35:58,742 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Apache-Coyote/1.1
+2016-05-18 18:35:58,742 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-05-18 18:35:58,742 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=/disconf]
+2016-05-18 18:36:01,777 [main] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zookeeper: 192.168.3.203:2181 , connected.
+2016-05-18 18:36:01,777 [main] INFO  com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - zoo prefix: /disconf
+2016-05-18 18:36:07,813 [main-EventThread] INFO  com.baidu.disconf.core.common.zookeeper.inner.ConnectionWatcher - zk SyncConnected
+2016-05-18 18:36:07,818 [main] DEBUG com.baidu.disconf.core.common.zookeeper.ZookeeperMgr - ZookeeperMgr init.
+2016-05-18 18:36:07,825 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-05-18 18:36:07,937 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: autoconfig.properties	=============================
+2016-05-18 18:36:07,938 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-5c7612ccdf4f488ba76ed04ec2088ba9
+2016-05-18 18:36:07,964 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-5c7612ccdf4f488ba76ed04ec2088ba9
+2016-05-18 18:36:07,971 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:36:07,971 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 18:36:07,974 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 18:36:07,974 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 18:36:07,974 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	0000013
+2016-05-18 18:36:07,975 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 18:36:08,010 [main] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 18:36:08,010 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 18:36:08,010 [main] DEBUG com.baidu.disconf.client.DisconfMgr - disconf reloadable file: autoconfig.properties
+2016-05-18 18:36:08,012 [main] DEBUG c.baidu.disconf.client.addons.properties.ReloadingPropertyPlaceholderConfigurer - add property listener: {auto2=0000013, auto1=sdfasdfa, auto=2222222111}
+2016-05-18 18:36:08,337 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-05-18 18:36:08,340 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: autoconfig.properties	=============================
+2016-05-18 18:36:08,340 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	autoconfig.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=autoconfig.properties
+	copy2TargetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0
+	disConfCommonModel=DisConfCommonModel [app=disconf_demo, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.test.callback.AutoServiceCallback@eafe8d], disconfUpdatesActiveBackups=[]}]]
+
+2016-05-18 18:36:08,340 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+
+2016-05-18 18:36:08,340 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-05-18 18:36:12,784 [main-EventThread] INFO  com.baidu.disconf.client.watch.inner.NodeWatcher - ============GOT UPDATE EVENT WatchedEvent state:SyncConnected type:NodeDataChanged path:/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件)======================
+2016-05-18 18:36:12,785 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-071949eca49c4ded85d218f70a71d01e
+2016-05-18 18:36:12,794 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-071949eca49c4ded85d218f70a71d01e
+2016-05-18 18:36:12,801 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:36:12,801 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 18:36:12,807 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 18:36:12,807 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 18:36:12,807 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	0000013
+2016-05-18 18:36:12,808 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 18:36:12,831 [main-EventThread] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 18:36:12,831 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 18:36:12,833 [main-EventThread] INFO  com.baidu.disconf.client.core.processor.impl.DisconfCoreProcessUtils - start to call class com.test.callback.AutoServiceCallback
+2016-05-18 18:36:57,780 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - reload autoconfig.properties :[auto2=0000013, auto1=sdfasdfa, auto=2222222111]
+2016-05-18 18:37:10,192 [main-EventThread] INFO  com.baidu.disconf.client.watch.inner.NodeWatcher - ============GOT UPDATE EVENT WatchedEvent state:SyncConnected type:NodeDataChanged path:/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件)======================
+2016-05-18 18:37:10,193 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-ade6581b1ef145498eec4276a309ee9b
+2016-05-18 18:37:10,202 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-ade6581b1ef145498eec4276a309ee9b
+2016-05-18 18:37:10,203 [main-EventThread] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-ade6581b1ef145498eec4276a309ee9b to E:\work\MyEclipse10\disconf-demo\.\disconf\download2\autoconfig.properties
+2016-05-18 18:37:10,206 [main-EventThread] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-ade6581b1ef145498eec4276a309ee9b to E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:37:10,209 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:37:10,209 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 18:37:10,211 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 18:37:10,211 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 18:37:10,211 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	0000015
+2016-05-18 18:37:10,212 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 18:37:10,229 [main-EventThread] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 18:37:10,229 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 18:37:10,229 [main-EventThread] INFO  com.baidu.disconf.client.core.processor.impl.DisconfCoreProcessUtils - start to call class com.test.callback.AutoServiceCallback
+2016-05-18 18:37:17,796 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - reload autoconfig.properties :[auto2=0000015, auto1=sdfasdfa, auto=2222222111]
+2016-05-18 18:37:32,476 [main-EventThread] INFO  com.baidu.disconf.client.watch.inner.NodeWatcher - ============GOT UPDATE EVENT WatchedEvent state:SyncConnected type:NodeDataChanged path:/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件)======================
+2016-05-18 18:37:32,476 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://192.168.3.203:8081/api/config/file?app=disconf_demo&env=rd&type=0&key=autoconfig.properties&version=1_0_0_0 , TO: E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-b10596235c7b460fa6b9dcfab7ff5719
+2016-05-18 18:37:32,485 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-b10596235c7b460fa6b9dcfab7ff5719
+2016-05-18 18:37:32,486 [main-EventThread] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-b10596235c7b460fa6b9dcfab7ff5719 to E:\work\MyEclipse10\disconf-demo\.\disconf\download2\autoconfig.properties
+2016-05-18 18:37:32,489 [main-EventThread] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace E:\work\MyEclipse10\disconf-demo\.\disconf\download\autoconfig.properties-b10596235c7b460fa6b9dcfab7ff5719 to E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:37:32,492 [main-EventThread] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: E:\work\MyEclipse10\disconf-demo\target\classes\autoconfig.properties
+2016-05-18 18:37:32,492 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-05-18 18:37:32,493 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto1	sdfasdfa
+2016-05-18 18:37:32,493 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto	2222222111
+2016-05-18 18:37:32,493 [main-EventThread] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - auto2	0000015123123123
+2016-05-18 18:37:32,493 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-05-18 18:37:32,510 [main-EventThread] DEBUG com.baidu.disconf.client.watch.inner.NodeWatcher - monitor path: (/disconf/disconf_demo_1_0_0_0_rd/file/autoconfig.properties,autoconfig.properties,配置文件) has been added!
+2016-05-18 18:37:32,511 [main-EventThread] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-05-18 18:37:32,511 [main-EventThread] INFO  com.baidu.disconf.client.core.processor.impl.DisconfCoreProcessUtils - start to call class com.test.callback.AutoServiceCallback
+2016-05-18 18:38:01,612 [main-EventThread] INFO  com.test.callback.AutoServiceCallback - reload autoconfig.properties :[auto2=0000015123123123, auto1=sdfasdfa, auto=2222222111]
